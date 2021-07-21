@@ -59,3 +59,13 @@ h1, h2 {
 .active {
         border-bottom: 1px solid #3a3a3a;
 }
+
+/* hero image */
+
+#ring-image {
+        height: 600px;
+        width: 100%;
+        background-image: url('assets/css/images/ring.jpg');
+        background-repeat: no-repeat;
+
+}
