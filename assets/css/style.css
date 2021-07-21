@@ -62,10 +62,17 @@ h1, h2 {
 
 /* hero image */
 
+#ring-outer
+            { height: 600px;
+                width: 100%;
+                overflow: hidden;
+
+    }
+
 #ring-image {
         height: 600px;
         width: 100%;
-        background-image: url('assets/css/images/ring.jpg');
+        background-image: url('../css/images/ring.jpg');
         background-repeat: no-repeat;
 
 }
