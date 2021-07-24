@@ -80,7 +80,7 @@ h1, h2 {
     }
 
 #ring-image {
-        height: 700px;
+        height: 750px;
       
         background-image: url('../css/images/ring.jpg');
         background-repeat: no-repeat;
@@ -95,24 +95,34 @@ h1, h2 {
 
 #about  {
     height: 600px;
+    background-position: center;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+    background-color: none;
 }
 
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    background-color: blue;
+/* footer */
+footer {
+    height: 150px;
 }
 
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-color: silver;
+.social-networks {
+    text-align: center;
 }
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+    position: center;
+}
+
+
